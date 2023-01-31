@@ -8,13 +8,13 @@ public class Start {
         System.out.println("----------Creating the arrays----------------");
 
         String[] aliceToDos = new String[]{"Coding", "Reading", "Learning"};
-        System.out.println(Arrays.toString(aliceToDos));
+        System.out.println("These are Alice's tasks: " + Arrays.toString(aliceToDos));
 
         String[] bobToDos = new String[]{"Reading", "Coding", "Learning", "Sleeping"};
-        System.out.println(Arrays.toString(bobToDos));
+        System.out.println("These are Bob's tasks: " + Arrays.toString(bobToDos));
 
         String[] timToDos = new String[]{"Reading", "Learning", "Coding"};
-        System.out.println(Arrays.toString(timToDos));
+        System.out.println("And finally, Tim's tasks: " + Arrays.toString(timToDos));
 
         System.out.println("-------Comparing the arrays' properties--------");
 
